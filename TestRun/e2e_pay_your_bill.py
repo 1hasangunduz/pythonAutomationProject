@@ -6,6 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from BaseTests.Driver.driver import driver
 
 
+
 def test_payment(driver):
     driver.get("https://newapp-staging.qlub.cloud/qr/ae/dummy-checkout/90/_/_/1827c10c80?lang=en")
     time.sleep(5)
